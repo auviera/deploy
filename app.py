@@ -11,7 +11,7 @@ def malaysia():
         tahun_pred = y.year_prediction(tahun)
         mp = tahun_pred
 
-    return render_template("index.html", my_year = mp)
+    return render_template("index.html")
 
 # @app.route("/sub", methods = ['POST'])
 # def submit():
